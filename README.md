@@ -11,7 +11,7 @@
 
 You can find the latest version of Hopsworks in this Github repository https://github.com/logicalclocks/hopsworks.
 
-<a href=""><img src="https://github.com/logicalclocks/hopsworks/tree/master/hopsworks-web/yo/app/images/what-is-hopsworks.png" align="center"></a>
+<a href=""><img src="images/what-is-hopsworks.png" align="center"></a>
 
 ## Multi-tenancy - Projects, Users, Datasets
 Hopsworks provides Projects as a privacy-by-design sandbox for data, including sensitive data, and for managing collaborating teams - like GitHub.
