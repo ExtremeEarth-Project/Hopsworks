@@ -19,7 +19,7 @@ Datasets can be shared between projects - like Dropbox. Each project has its own
 
 ## HopsML
 
-<a href=""><img src="https://github.com/logicalclocks/hopsworks/tree/master/hopsworks-web/yo/app/images/hopsworks-e2e-ml.png" align="center"></a>
+<a href=""><img src="images/hopsworks-e2e-ml.png" align="center"></a>
 
 HopsML is our framework for writing end-to-end machine learning workflows in Python. We support Airflow to orchestrate workflows with: ETL in PySpark or TensorFlow, a Feature Store, AutoML hyperparameter optimization techniques over many hosts and GPUs in Keras/TensorFlow/PyTorch, in addition to distributed training such as MultiWorkerMirroredStrategy.
 
@@ -27,14 +27,14 @@ Jupyter notebooks can be used to write all parts of the pipeline, and TensorBoar
 
 ## Feature Store
 
-<a href=""><img src="https://github.com/logicalclocks/hopsworks/tree/master/hopsworks-web/yo/app/images/hopsworks-featurestore.png" align="center" hspace="10" vspace="30"></a>
+<a href=""><img src="images/hopsworks-featurestore.png" align="center" hspace="10" vspace="30"></a>
 
 The feature store is as a central place to store curated features for machine learning pipelines in Hopsworks. A feature is a measurable property of some data-sample. It could be for example an image-pixel, a word from a piece of text, the age of a person, a coordinate emitted from a sensor, or an aggregate value like the average number of purchases within the last hour. Features can come directly from tables or files or can be derived values, computed from one or more data sources. For more information see the [docs](https://hopsworks.readthedocs.io/en/latest/featurestore/featurestore.html).
 
 ## TLS security
 
 <p align="center">
-  <a href=""><img width="656" height="432" src="https://github.com/logicalclocks/hopsworks/tree/master/hopsworks-web/yo/app/images/security.png"></a>
+  <a href=""><img width="656" height="432" src="images/security.png"></a>
 </p>
 
 Uniquely in Hadoop, Hops supports X.509 certificates for authentication and authorization: users, services, jobs and TLS for in-flight encryption. At-rest encryption is also supported using ZFS-on-Linux.
@@ -43,7 +43,7 @@ Uniquely in Hadoop, Hops supports X.509 certificates for authentication and auth
 ## HopsFS
 
 <p align="center">
-  <a href=""><img src="https://github.com/logicalclocks/hopsworks/tree/master/hopsworks-web/yo/app/images/hopsfs.png"></a>
+  <a href=""><img src="images/hopsfs.png"></a>
 </p>
 
 HopsFS is a drop-in replacement for HDFS that adds distributed metadata and "small-files in metadata (NVMe disks)" support to HDFS.
